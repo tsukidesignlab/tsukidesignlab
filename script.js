@@ -1,0 +1,1 @@
+// JS handled by Next.js components
