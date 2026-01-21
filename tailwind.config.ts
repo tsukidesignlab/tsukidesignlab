@@ -1,20 +1,18 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}'
+  ],
   theme: {
     extend: {
       colors: {
-        ink: "#1f2937",
-        cream: "#FAF7F1",
-        cream2: "#F5EFE4",
-      },
-      boxShadow: {
-        soft: "0 10px 30px rgba(0,0,0,0.08)",
-      },
-    },
+        cream: '#FAF7F0'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
 
 export default config;
