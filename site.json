@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name_zh": "茲奇製研所",
+    "name_en": "Tsuki Design & Innovation Lab",
+    "tagline": "持續創造的設計研究所",
+    "tone": [
+      "溫暖",
+      "創造力",
+      "活力",
+      "青春",
+      "生活感"
+    ],
+    "logo_text": "Tsuki"
+  },
+  "product": {
+    "name": "StellarVision",
+    "name_full": "StellarVision 兒童視覺健康教具",
+    "age": "2–8",
+    "stage": "已完成初步原型與使用測試",
+    "pain_points": [
+      "孩童過早出現視力問題（如近視、斜視/弱視風險）",
+      "手眼協調與空間概念發展不足",
+      "注意力維持與視覺專注力不足"
+    ],
+    "differentiators": [
+      "以遊戲化方式引導孩子在非 3C 的情境中訓練視覺能力",
+      "結合多種能力訓練（視覺專注、空間概念、手眼協調）",
+      "可串接視力保健課程／活動，形成完整的家庭與教育端方案"
+    ],
+    "credibility_note": "我們正與相關專業人士交流，並以教育教具定位推進；本網站內容不構成醫療建議。",
+    "survey_url": "",
+    "instagram_url": ""
+  },
+  "social": {
+    "email": "tsukidesignlab@gmail.com",
+    "instagram": "https://www.instagram.com/tsukidesign.lab/",
+    "instagram_handle": "@tsukidesign.lab"
+  },
+  "sections": {
+    "hero": {
+      "headline": "StellarVision",
+      "subheadline": "讓孩子遠離壞視力，從日常遊戲開始",
+      "cta_primary": "看產品亮點",
+      "cta_secondary": "聯絡我們"
+    },
+    "about": {
+      "title": "關於茲奇製研所",
+      "body": "我們是一個融合設計、實驗與教育的創新實踐品牌，從生活問題出發，將概念設計推進到可被使用、可被驗證的產品與服務。"
+    },
+    "product_intro": {
+      "title": "產品介紹",
+      "body": "StellarVision 是以「視覺專注 × 空間概念 × 手眼協調」為核心的親子教具，讓孩子在玩樂中練習視覺能力，並降低過度依賴 3C 的可能。"
+    },
+    "for_whom": {
+      "title": "適合誰",
+      "items": [
+        {
+          "title": "家長",
+          "desc": "想讓孩子減少 3C、提升專注力與視覺能力的家庭。"
+        },
+        {
+          "title": "孩子（2–8 歲）",
+          "desc": "適合在遊戲中培養視覺專注、空間概念與手眼協調。"
+        },
+        {
+          "title": "幼兒園／教育端",
+          "desc": "可作為課程活動的教具，搭配視力保健教育一起推廣。"
+        }
+      ]
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "body": "想了解合作、試用或活動？歡迎來信，我們會盡快回覆。",
+      "cta": "寄信給我們"
+    }
+  }
+}

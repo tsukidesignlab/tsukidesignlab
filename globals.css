@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FAF7F0;
+  --card: rgba(255, 255, 255, 0.78);
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #F97316;
+  --accent2: #0EA5E9;
+  --ring: rgba(17, 24, 39, 0.12);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container-pad {
+  @apply mx-auto max-w-6xl px-5;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--ring);
+  @apply rounded-3xl shadow-sm;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-semibold shadow-sm transition;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.95);
+}
+
+.btn-ghost {
+  @apply border;
+  border-color: var(--ring);
+  background: rgba(255,255,255,0.4);
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+  border: 1px solid var(--ring);
+  background: rgba(255,255,255,0.45);
+}
+
+.section {
+  @apply py-16;
+}
+
+.hr-soft {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(17,24,39,0), rgba(17,24,39,0.12), rgba(17,24,39,0));
+}
